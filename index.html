@@ -1,1 +1,90 @@
-Hello world
+<!DOCTYPE html>
+<html>
+
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</head>
+
+<body style="background-color:black">
+
+<nav class="navbar navbar-inverse" style="margin-bottom:0px;">
+<div class="container-fluid">
+<div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#top">Charlotte Lansley</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+      <ul class="nav navbar-nav navbar-right">
+        <li style="padding:0px 5px;"><a href="#about">About</a></li>
+		<li style="padding:0px 5px;"><a href="#portfolio">Portfolio</a></li>
+		<li style="padding:0px 5px;"><a href="#contact">Contact</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+<div class="jumbotron" style="background-image:url('./images/divbg.jpg'); background-size:cover; min-height:500px; color:white;">
+      <div class="container" style="min-height:500px; position:absolute; width:100%; top:50%; margin-top:-250px; text-align:center;">
+        <h2 style="text-shadow: 3px 3px 1px rgba(0, 0, 0, 1);">Hello, I'm</h2>
+		<h1 style="text-shadow: 3px 3px 1px rgba(0, 0, 0, 1);">Charlotte Lansley</h1>
+        <p style="width:80%; margin:0 auto; text-shadow: 3px 3px 1px rgba(0, 0, 0, 1);">and I'm a 23 year old web developer, network security enthusiast and dog lover living in Newcastle-upon-Tyne, UK. </p>
+		<p style="padding:20px 0px; text-shadow: 3px 3px 1px rgba(0, 0, 0, 1);">HTML | CSS | PHP | MySQL | Design</p>
+        <p><a class="btn btn-primary btn-lg" style="padding: 5px 30px;" href="#about" role="button">&#11167;</a></p>
+		<a href="#about"><span style="text-shadow: 3px 3px 1px rgba(0, 0, 0, 1);">Read all about it</span></a>
+      </div>
+</div>
+
+
+<div class="row featurette" id="about" style="width:80%; margin:0 auto; padding-bottom:50px;">
+<div class="col-md-7 col-md-push-5">
+  <h2 class="featurette-heading">Oh yeah, it's that good. <span class="text-muted">See for yourself.</span></h2>
+  <p class="lead" style="width:75%;">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+</div>
+<div class="col-md-5 col-md-pull-7">
+  <img class="featurette-image img-responsive center-block" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="250" height="250">
+</div>
+</div>
+
+<hr class="featurette-divider" style="width:75%; padding-top:25px;">
+
+<div class="container">
+  <!-- Example row of columns -->
+  <div class="row" style="text-align:center">
+	<div class="col-md-4">
+	  <h2 style="padding-bottom:10px;">Heading</h2>
+	  <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
+	  <p style="padding-top:20px; margin-left:10px; margin-right:10px;">Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+	  <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+	</div>
+	<div class="col-md-4">
+	  <h2 style="padding-bottom:10px;">Heading</h2>
+	  <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
+	  <p style="padding-top:20px; margin-left:10px; margin-right:10px;">Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+	  <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+   </div>
+	<div class="col-md-4">
+	  <h2 style="padding-bottom:10px;">Heading</h2>
+	  <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
+	  <p style="padding-top:20px; margin-left:10px; margin-right:10px;">Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+	  <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+	</div>
+  </div>
+  
+<footer role="contentinfo" style="padding-top:75px;">
+<p>&copy; 2017 Charlotte Lansley</p>
+</footer>
+
+</div><!-- /container -->
+
+</body>
+</html>
