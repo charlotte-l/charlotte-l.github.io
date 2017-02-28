@@ -7,6 +7,10 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
 <style>
+body {
+font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
 .hvr-grow {
     display: inline-block;
     vertical-align: middle;
@@ -69,7 +73,7 @@ text-decoration: none;
         <h2 style="">Hello, I'm</h2>
 		<h1 style="">Charlotte Lansley</h1>
         <p style="width:80%; margin:0 auto;">and I'm a 23 year old web developer, network security enthusiast and dog lover living in Newcastle-upon-Tyne, UK. </p>
-		<p style="padding:20px 0px;">HTML | CSS | PHP | MySQL | Design</p>
+		<p style="padding:20px 0px;">HTML | CSS | PHP | SQL | Design</p>
         <p><a class="btn btn-primary btn-lg" style="padding: 5px 30px;" href="#about" role="button"><span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></a></p>
 		<a href="#about"><span style="color:white;">Read all about it</span></a>
       </div>
@@ -94,14 +98,14 @@ $(function() {
 
 
 <div class="row featurette" id="about" style="width:80%; margin:0 auto; padding-bottom:50px;padding-top:50px;">
-<div class="col-md-7 col-md-push-5" style="height:400px">
+<div class="col-md-7 col-md-push-5" style="height:auto;">
   <h2 class="featurette-heading" style="color:white; padding-bottom:25px;">Get to know me</h2>
   <p style="width:75%; color:#eee; font-size:large;">Since 1994, I've thrown myself into all things technology and the internet. Even when I went to study at the University of Manchester for my Physics degree, I still managed to come back to it - and it's there I taught myself to program.</p>
   <p style="width:75%; color:#eee; font-size:large;">I currently work as a cybersecurity associate, but I spend a lot of my free time working on personal websites and programming challenges.</p>
   <p style="width:75%; color:#eee; font-size:large;">In making my design ideas a reality, I've taught myself HTML5, CSS3, PHP and MySQL. JQuery is the next thing on my horizon.</p>
 </div>
 <div class="col-md-5 col-md-pull-7" style="height:auto;">
-  <img class="featurette-image center-block img-circle" src="./images/author_2.jpg" alt="That's me!" height="250px" style="margin-top: 75px; margin-bottom:75px; box-shadow: 0 0 20px 10px rgba(51, 51, 51,0.5)">
+  <img class="featurette-image center-block img-circle" src="./images/author_2.jpg" alt="That's me!" style="margin-top: 75px; margin-bottom:75px; min-height:200px; width:auto; height:30vh; border-style: solid; border-width: 5px;">
 </div>
 </div>
 
@@ -127,11 +131,34 @@ $(function() {
 	</div>
 </div>
 
+
+<script>
+var user = "cel.lansley";
+var domain="googlemail.com";
+var email = user + "@" + domain;
+var content2 = "<center>Drop me a line: " + email + "</center>";
+</script>
+
+
+<script>
+$(function () {
+  $('[data-toggle="popover"]').popover({content:content2});
+})
+
+$('body').on('click', function (e) {   
+    if ($(e.target).data('toggle') !== 'popover'
+        && $(e.target).parents('[data-toggle="popover"]').length === 0
+        && $(e.target).parents('.popover.in').length === 0) { 
+        $('[data-toggle="popover"]').popover('hide');
+    }   
+});
+</script>
+
 <div style="text-align:center; padding-top:8vh;" id="contact">
 <ul style="list-style:none;margin:30px 0 0 0;">
-<li style="display:inline-block; padding-left:10%; padding-right:10%;"><a class="hvr-grow" href="http://www.twitter.com/charlott_emilie"><img src="./images/twitter.png" height="40" width="40"></a></li>
-<li style="display:inline-block; padding-left:10%; padding-right:10%;"><a class="hvr-grow" href="http://www.linkedin.com/in/charlottelansley"><img src="./images/linkedin.png" height="40" width="40"></a></li>
-<li style="display:inline-block; padding-left:10%; padding-right:10%;"><a class="hvr-grow" href="http://www.charlotte-l.github.io/contact.html"><img src="./images/email.png" height="40" width="40"></a></li>
+<li style="display:inline-block; padding-left:10%; padding-right:10%;"><a class="hvr-grow" href="http://www.twitter.com/charlott_emilie" target="_blank"><img src="./images/twitter.png" height="40" width="40"></a></li>
+<li style="display:inline-block; padding-left:10%; padding-right:10%;"><a class="hvr-grow" href="http://www.linkedin.com/in/charlottelansley" target="_blank"><img src="./images/linkedin.png" height="40" width="40"></a></li>
+<li style="display:inline-block; padding-left:10%; padding-right:10%;"><a class="btn" data-toggle="popover" data-html="true" data-placement="top" data-content=""><img class="hvr-grow" src="./images/email.png" height="40" width="40"></a></li>
 </div>
 
 <footer role="contentinfo" style="padding-top:50px;">
