@@ -55,7 +55,10 @@ div.tab a { position: relative; float: left; display: block; color: #3c763d; tex
   #carouseltext span { font-size: 20px !important; }
   #carouseltext { left: 15%; }
   #toptitle { font-size: 2vw !important; } }
+
   
+@media (max-width: 1450px) { #toptitle img { height:auto; width:20vw; }  }
+@media (max-width: 1250px) { #toptitle img { display:none; }  }
 @media (min-width: 1700px) { #carouseltext { left: 20%; } }
 @media (min-width: 1950px) { #carouseltext { left: 26%; } }
 
