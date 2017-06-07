@@ -126,7 +126,8 @@ text-decoration: none;
 .timeline ol {
   font-size: 0;
   width: 100vw;
-  padding: 100px 0;
+  padding-top: 150px;
+  padding-bottom:150px;
   transition: all 1s;
 }
  
@@ -167,9 +168,9 @@ text-decoration: none;
 .timeline ol li div {
   position: absolute;
   left: calc(100% + 7px);
-  width: 150px;
+  width: 200px;
   padding: 15px;
-  font-size: 1rem;
+  font-size: 16px;
   white-space: normal;
   color: black;
   background: white;
