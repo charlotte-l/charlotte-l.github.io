@@ -34,7 +34,7 @@ div.tab a { position: relative; float: left; display: block; color: #3c763d; tex
   #carouseltext span { font-size: 3.5vw !important; }
   #carouseltext { left: 15%; }
   #toptitle { font-size: 2vw !important; }
-  #sponsors img {width:20vw; height:auto; }
+  #sponsors img {width:12vw; height:auto; }
   .row.vcenter {width:100% !important;}
   .social img {height:40px; width:40px;}
   .social {padding-left:10px; padding-right:10px;}
