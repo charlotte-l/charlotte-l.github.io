@@ -22,6 +22,7 @@ div.tab a { position: relative; float: left; display: block; color: #3c763d; tex
 #carouseltext { position: absolute; top: 5%; left: 15%; z-index: 20; color: white; }
 #carouseltext span, #carouseltext p { background: #000; padding-left: 10px; padding-right: 10px; }
 .carousel-inner > .item > img, .carousel-inner > .item > a > img { width: 75vw; max-width: 1200px; height: 60vh; max-height: 600px; margin: auto; }
+#carvideo {display: block; object-fit: initial; width: 75vw; max-width: 1200px; height: 60vh; max-height: 600px; margin:auto;}
 .social { display: inline-block; padding-left: 20px; padding-right: 20px; border: none !important; }
 .social a img { position: relative; top: 0; transition: top ease 0.3s; }
 .social a img:hover { top: -5px; -webkit-filter: drop-shadow(2px 2px 0px rgba(9, 79, 10, 0.5)); -moz-filter: drop-shadow(2px 2px 0px rgba(9, 79, 10, 0.5)); -ms-filter: drop-shadow(2px 2px 0px rgba(9, 79, 10, 0.5)); -o-filter: drop-shadow(2px 2px 0px rgba(9, 79, 10, 0.5)); filter: drop-shadow(2px 2px 0px rgba(9, 79, 10, 0.5)); }

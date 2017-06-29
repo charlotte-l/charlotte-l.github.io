@@ -48,7 +48,7 @@
 
 <div id="container" style="padding-top:50px;">
 <a id="home"></a>
-<div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="4000">
+<div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="9000">
 
 <ol class="carousel-indicators">
     <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -60,25 +60,22 @@
   <!-- Wrapper for slides -->
   <div class="carousel-inner" role="listbox">
     <div class="item active">
-      <img src="./nucleusimg/car12.jpeg" alt="Cars">
+      <!--<img src="./nucleusimg/car12.jpeg" alt="Cars">-->
+	  <div>
+	  <video id="carvideo" autoplay loop>
+		<source src="./nucleusimg/carousel_1.mp4" type="video/mp4">
+		<img src="./nucleusimg/carousel_1_bk.jpg" alt="The Green Bolide"> <!--alt-->
+	  </video>
+	  </div>
 	  <div id="carouseltext">
-		<p style="font-size:46px;">The Green Bolide at</br>Shell Eco-marathon Europe 2017</p>
-		<span style="font-size:30px;"> 25/05/2017</span></br>
-		<span style="font-size:24px;">#SEM2017 #TeamNucleus</span>
+		<p style="font-size:46px;">The Green Bolide</p>
+		<span style="font-size:30px;">Northumbria University 2017</span></br>
+		<span style="font-size:24px;">#TeamNucleus</span>
 	  </div>
     </div>
 
     <div class="item">
-      <img src="./nucleusimg/shell1.jpg" alt="Shell">
-	  <div id="carouseltext">
-		<p style="font-size:46px;">The Green Bolide at</br>Shell Eco-marathon Europe 2017</p>
-		<span style="font-size:30px;">25/05/2017</span></br>
-		<span style="font-size:24px;">#SEM2017 #TeamNucleus</span>
-	  </div>
-    </div>
-
-    <div class="item">
-      <img src="./nucleusimg/shell2.jpg" alt="Start line">
+      <img src="./nucleusimg/carousel_2.jpg" alt="The Green Bolide">
 	  <div id="carouseltext">
 		<p style="font-size:46px;">The Green Bolide at</br>Shell Eco-marathon Europe 2017</p>
 		<span style="font-size:30px;">25/05/2017</span></br>
@@ -87,7 +84,16 @@
     </div>
 
     <div class="item">
-      <img src="./nucleusimg/team12.jpeg" alt="The team">
+      <img src="./nucleusimg/carousel_3.jpg" alt="The Green Bolide">
+	  <div id="carouseltext">
+		<p style="font-size:46px;">The Green Bolide at</br>Shell Eco-marathon Europe 2017</p>
+		<span style="font-size:30px;">25/05/2017</span></br>
+		<span style="font-size:24px;">#SEM2017 #TeamNucleus</span>
+	  </div>
+    </div>
+
+    <div class="item">
+      <img src="./nucleusimg/shell1.jpg" alt="The Green Bolide @ Shell Eco-Marathon 2017">
 	  <div id="carouseltext">
 		<p style="font-size:46px;">The Green Bolide at</br>Shell Eco-marathon Europe 2017</p>
 		<span style="font-size:30px;">25/05/2017</span></br>
@@ -112,6 +118,7 @@
   <a href="javascript:void(0)" class="tablinks barlink" onclick="openTab(event, 'powertab')">Powertrain</a>
   <a href="javascript:void(0)" class="tablinks barlink" onclick="openTab(event, 'steertab')">Steering</a>
   <a href="javascript:void(0)" class="tablinks barlink" onclick="openTab(event, 'sponsors')">Our Sponsors</a>
+  <a href="javascript:void(0)" class="tablinks barlink" onclick="openTab(event, 'downloadtab')">Downloads</a>
 </div>
 
 <div id="greenbolidetab" class="tabcontent">
@@ -119,7 +126,8 @@
 <div class="col-md-7">
 <p class="lead">The Green Bolide is a lean, mean, green machine.</p><p> With a sleek, aerodynamic fibreglass body, 
 a bioethanol ICE and a cutting edge electronic push-start carburetor, the Green Bolide weighs in at only 40kg.
-The Green Bolide will be appearing at Shell Eco-marathon Europe 2017 and has been created by Northumbria University's Team Nucleus.</p>
+The Green Bolide will be appearing at Shell Eco-marathon Europe 2018 and has been created by Northumbria University's Team Nucleus.</p>
+<a style="color:#3c763d;" href="https://www.northumbria.ac.uk/about-us/news-events/news/2017/06/northumbria-green-engineers-build-car-of-the-future/"><h4><strong>Read: </strong>Northumbria green engineers build car of the future</h4></a>
 
 <h3 style="padding-top:10px; color:#094f0a;">Technical specifications:</h3>
 
@@ -127,18 +135,11 @@ The Green Bolide will be appearing at Shell Eco-marathon Europe 2017 and has bee
 <li class="list-group-item">Weight: 40kg</li>
 <li class="list-group-item">Dimensions: 0.65m (H) x 0.6m (W) x 3m (L)</li>
 <li class="list-group-item">Drag coefficient: 0.1</li>
-<li class="list-group-item">Maximum speed: TBC</li>
+<li class="list-group-item">Maximum speed: 30mph</li>
 </ul>
 </div>
 <div class="col-md-5">
-<a href="./nucleusimg/fullcar.jpg" data-toggle="lightbox" data-gallery="hidden-images" data-title="Finished SolidWorks model of the car"><img height="400" width="400" class="featurette-image center-block" src="./nucleusimg/fullcar_link-min.png" style="border:5px double #094f0a;"></a>
-<!--hidden images for image gallery-->
-<div data-toggle="lightbox" data-gallery="hidden-images" data-remote="./nucleusimg/trackmap.jpg" data-title="SEM 2017 London Track Map"></div>
-<div data-toggle="lightbox" data-gallery="hidden-images" data-remote="./nucleusimg/chassisproduction.jpg" data-title="Chassis production in progress"></div>
-<div data-toggle="lightbox" data-gallery="hidden-images" data-remote="./nucleusimg/wheels.jpg" data-title="Wheels ready for mounting"></div>
-<div data-toggle="lightbox" data-gallery="hidden-images" data-remote="./nucleusimg/bodymould.jpg" data-title="EVA foam moulds of the body for creating the fibreglass body"></div>
-<div data-toggle="lightbox" data-gallery="hidden-images" data-remote="./nucleusimg/enginebracket.jpg" data-title="Figuring out the best way to mount the engine onto the chassis"></div>
-<!--end of hidden images for image gallery-->
+<img height="400" width="400" class="featurette-image center-block" src="./nucleusimg/fullcar.jpg" style="border:5px double #094f0a;">
 </div>
 </div>
 </div> <!--greenbolidetab-->
@@ -150,10 +151,18 @@ The Green Bolide will be appearing at Shell Eco-marathon Europe 2017 and has bee
 <p>Simple but strong, the chassis underneath the Green Bolide supports the vehicle and protects it's most important parts.</p>
 <p>Made of the aluminium alloy 6082-T6, the chassis weighs 15 kilograms (around a third of the total weight of the car). It's joints are welded for superior strength and stability - 
 it's design adds strength and stability to the vehicle and acts as an anchor for the body and electronics system.</p>
-<p>The chassis of the Green Bolide also incorporates the driver's seat, steering mounts and engine mounts, and includes a rollbar for inmproved driver safety.</p> 
+<p>The chassis of the Green Bolide also incorporates the driver's seat, steering mounts and engine mounts, and includes a rollbar for inmproved driver safety.</p>
+
+<div class="row" style="padding-top:30px;">
+<div class="col-md-3 gallery1" data-name="gall1img1.jpg"><img src="./nucleusimg/gall1img1.jpg" height="120" width="120"></div>
+<div class="col-md-3 gallery1" data-name="gall1img2.jpg"><img src="./nucleusimg/gall1img2.jpg" height="120" width="120"></div>
+<div class="col-md-3 gallery1" data-name="gall1img3.png"><img src="./nucleusimg/gall1img3.png" height="120" width="120"></div>
+<div class="col-md-3 gallery1" data-name="gall1img4.jpg"><img src="./nucleusimg/gall1img4.jpg" height="120" width="120"></div>
+</div>
+
 </div>
 <div class="col-md-5">
-<img height="400" width="400" class="featurette-image center-block" data-src="./nucleusimg/chassis.png" src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" style="border:5px double #094f0a;">
+<img id="gall1disp" height="400" width=auto class="featurette-image center-block" src="./nucleusimg/chassis.png" style="max-width:35vw; border:5px double #094f0a;">
 </div>
 </div>
 </div> <!--chassistab-->
@@ -166,9 +175,17 @@ it's design adds strength and stability to the vehicle and acts as an anchor for
 <p>The panelling was formed by hand-crafting EVA foam moulds, which were smoothed into shape with a dremel and sanded to a smooth finish. The team then manually shaped and cured the 
 fibreglass sheets within their laboratory.</p>
 <p>Thick sheets of acetate form the main window of the car, this allows further weight reduction alongside improved driver safety in the vehicle.</p>
+
+<div class="row" style="padding-top:30px;">
+<div class="col-md-3 gallery2" data-name="gall2img1.jpg"><img src="./nucleusimg/gall2img1.jpg" height="120" width="120"></div>
+<div class="col-md-3 gallery2" data-name="gall2img2.jpg"><img src="./nucleusimg/gall2img2.jpg" height="120" width="120"></div>
+<div class="col-md-3 gallery2" data-name="gall2img3.jpg"><img src="./nucleusimg/gall2img3.jpg" height="120" width="120"></div>
+<div class="col-md-3 gallery2" data-name="gall2img4.jpg"><img src="./nucleusimg/gall2img4.jpg" height="120" width="120"></div>
+</div>
+
 </div>
 <div class="col-md-5">
-<img height="400" width="400" class="featurette-image center-block" data-src="./nucleusimg/bodymodel_crop_2.jpg" src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" style="border:5px double #094f0a;">
+<img id="gall2disp" height="400" width=auto class="featurette-image center-block" src="./nucleusimg/bodymodel_crop_2.jpg" style="border:5px double #094f0a;">
 </div>
 </div>
 </div> <!--bodytab-->
@@ -182,9 +199,15 @@ the Green Bolide.</p>
 <p>Running on ethanol, one of the greenest fuels, the Honda GXH50 4-stroke engine features a sophisticated air filtration system, an OHV design for optimal power transfer 
 and a high compression ratio for improved fuel efficiency.</p>
 <p>The custom clutch system means that the Green Bolide has an automatic transmission system, meaning the engine can engage the clutch and transmission automatically when the target RPM is reached. </p>
+
+<div class="row" style="padding-top:30px;">
+<div class="col-md-3 gallery3" data-name="gall3img1.jpg"><img src="./nucleusimg/gall3img1.jpg" height="120" width="120"></div>
+<div class="col-md-3 gallery3" data-name="gall3img2.jpg"><img src="./nucleusimg/gall3img2.jpg" height="120" width="120"></div>
+</div>
+
 </div>
 <div class="col-md-5">
-<img height="400" width="400" class="featurette-image center-block" data-src="./nucleusimg/powertrain.jpg" src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" style="border:5px double #094f0a;">
+<img id="gall3disp" height="400" width=auto class="featurette-image center-block" data-src="./nucleusimg/powertrain.jpg" src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" style="border:5px double #094f0a;">
 </div>
 </div>
 </div> <!--powertab-->
@@ -198,9 +221,17 @@ sourced as they are crafted from old unused bicycle parts.</p>
 <p>The stub axels are also custom made, having an 8 meter turning radius which allows for the vehicle to take tight corners. The overall steering system is an Ackerman design, further 
 increasing the car's manoeverability. </p>
 <p>The steering wheel itself is made from lightweight recycled plastics and was 3D printed within Team Nucleus's laboratory.</p>
+
+<div class="row" style="padding-top:30px;">
+<div class="col-md-3 gallery4" data-name="gall4img1.jpg"><img src="./nucleusimg/gall4img1.jpg" height="120" width="120"></div>
+<div class="col-md-3 gallery4" data-name="gall4img2.jpg"><img src="./nucleusimg/gall4img2.jpg" height="120" width="120"></div>
+<div class="col-md-3 gallery4" data-name="gall4img3.jpg"><img src="./nucleusimg/gall4img3.jpg" height="120" width="120"></div>
+<div class="col-md-3 gallery4" data-name="gall4img4.jpg"><img src="./nucleusimg/gall4img4.jpg" height="120" width="120"></div>
+</div>
+
 </div>
 <div class="col-md-5">
-<img height="400" width="400" class="featurette-image center-block" data-src="./nucleusimg/bodymodel_crop_2.jpg" src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" style="border:5px double #094f0a;">
+<img id="gall4disp" height="400" width=auto class="featurette-image center-block" data-src="./nucleusimg/bodymodel_crop_2.jpg" src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" style="border:5px double #094f0a;">
 </div>
 </div>
 </div> <!--steertab-->
@@ -236,10 +267,30 @@ increasing the car's manoeverability. </p>
 <a href="http://www.maxtorque.com/" target="_blank" rel="noopener"><img data-src="./nucleusimg/maxtorque-logo.png" src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" width="175" alt="Max Torque"></a>
 </div>
 </div>
-
+</div>
 </div> <!--sponsors-->
 
+<div id="downloadtab" class="tabcontent">
+<div class="row">
+<div class="col-md-7">
+<p class="lead">Downloads and Technical Documents</p>
+<p>Local company and charity Recyke y' Bike helped Team Nucleus to create custom wheels for the Green Bolide, which have minimised rolling friction. The wheels were sustainably 
+sourced as they are crafted from old unused bicycle parts.</p>
+<p>The stub axels are also custom made, having an 8 meter turning radius which allows for the vehicle to take tight corners. The overall steering system is an Ackerman design, further 
+increasing the car's manoeverability. </p>
+<p>The steering wheel itself is made from lightweight recycled plastics and was 3D printed within Team Nucleus's laboratory.</p>
+</div>
+<div class="col-md-5">
+<img height="400" width="400" class="featurette-image center-block" data-src="./nucleusimg/bodymodel_crop_2.jpg" src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" style="border:5px double #094f0a;">
+</div>
+</div>
+</div> <!--downloadtab-->
+
 </div> <!--row featurette-->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="./qtip/jquery.qtip.min.js"></script>
+<link rel="stylesheet" href="./qtip/jquery.qtip.min.css">
 
 <script>
 function openTab(evt, tabName) {
@@ -265,6 +316,34 @@ function openTab(evt, tabName) {
 
 // open default tab
 document.getElementById("defaultOpen").click();
+
+$(".gallery1").click(function() {       
+   //Load background string from data of clicked element
+   var bVal = $(this).attr('data-name');
+   //Set display's background to retrieved background string
+   $("#gall1disp").hide().attr("src","./nucleusimg/"+bVal+"").show();
+});
+
+$(".gallery2").click(function() {       
+   //Load background string from data of clicked element
+   var bVal = $(this).attr('data-name');
+   //Set display's background to retrieved background string
+   $("#gall2disp").hide().attr("src","./nucleusimg/"+bVal+"").show();
+});
+
+$(".gallery3").click(function() {       
+   //Load background string from data of clicked element
+   var bVal = $(this).attr('data-name');
+   //Set display's background to retrieved background string
+   $("#gall3disp").hide().attr("src","./nucleusimg/"+bVal+"").show();
+});
+
+$(".gallery4").click(function() {       
+   //Load background string from data of clicked element
+   var bVal = $(this).attr('data-name');
+   //Set display's background to retrieved background string
+   $("#gall4disp").hide().attr("src","./nucleusimg/"+bVal+"").show();
+});
 </script>
 
 </div>
@@ -286,10 +365,6 @@ document.getElementById("defaultOpen").click();
 	<area alt="Joe" id="Joe" shape="rect" coords="516,290,548,332" data-hasqtip="9"/>
 	<area alt="Josh" id="Josh" shape="rect" coords="648,290,681,330" data-hasqtip="10"/>
 </map>
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-<script src="./qtip/jquery.qtip.min.js"></script>
-<link rel="stylesheet" href="./qtip/jquery.qtip.min.css">
 
 <script>
 $('#Simon').qtip({ content:{title:'Simon',text:'Steering system + chassis simulation'}, position:{my:'top center',at:'bottom right'}, style:{classes:'qtip-rounded qtip-bootstrap'} });
@@ -390,8 +465,6 @@ $(function() {
 
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 <script src="jquery.rwdImageMaps.min.js"></script>
-<script src="./lightbox/ekko-lightbox.min.js"></script>
-<link rel="stylesheet" href="./lightbox/ekko-lightbox.min.css">
 
 <script>
 function init() {
@@ -401,13 +474,6 @@ if(imgDefer[i].getAttribute('data-src')) {
 imgDefer[i].setAttribute('src',imgDefer[i].getAttribute('data-src'));
 } } }
 window.onload = init;
-</script>
-
-<script>
-$(document).on('click', '[data-toggle="lightbox"]', function(event) {
-    event.preventDefault();
-    $(this).ekkoLightbox();
-});
 </script>
 
 </body>

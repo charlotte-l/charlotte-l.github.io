@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="style.css">
+<script src="./scrollreveal.min.js"></script>
+<style>.social{visibility:hidden; .mainimage-l{visibility:hidden;}</style>
+</head>
+<body>
+
+<nav class="navbar navbar-default navbar-fixed-top" style="background-image:linear-gradient(to bottom,#fff 0, #fff 100%);">
+    <div class="container" style="width:90%">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="./index.html"><span class="text-uppercase"><span style="font-weight:100">CharlotteLansley</span><span style="font-weight:bolder">Fitness</span></span></a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./about.html">About</a></li>
+            <li class="dropdown active">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Services <span class="caret"></span></a>
+              <ul class="dropdown-menu" style="text-align:right;">
+				<li><a href="./services.html">Overview</a></li>
+                <li><a href="./personaltraining.html">Personal training</a></li>
+                <li><a href="./bikini.html">Bikini coaching</a></li>
+				<li><a href="./trainingplans.html">Training planning</a></li>
+                <li><a href="./mealplan.html">Macro coaching and meal planning</a></li>
+              </ul>
+            </li>
+			<li><a href="./blog.html">Blog</a></li>
+			<li><a href="./contact.html">Contact</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+    </div>
+</nav>
+
+<div class="container" style="width:100%; padding:0px; min-height:100vh;">
+
+<div id="main" style="border-bottom:solid 1px #d3d3d3; min-height:80vh;">
+
+<div class="jumbotron" style="background:url('./images/newservice2.jpg'), linear-gradient(to right, #c86da4 50%,#c86da4 50%,#7db9e8 100%); color:#fff">
+      <div class="container" style="padding-top:5vh;">
+        <h1 id="header">Services</h1>
+      </div>
+</div>
+
+<div class="container" style="padding-top:5vh; padding-bottom:10vh;">
+
+<div class="row" style="padding-top:5vh; padding-bottom:5vh;">
+<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4" style="text-align:center">
+<div class="mainimage-l" data-sr="wait .2s, spin 180deg"> <!--top image-->
+	<div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+		<div class="flipper">
+			<div class="front">
+				<!-- front content -->
+				<span class="fa-stack fa-5x"><i class="fa fa-circle-thin fa-stack-2x fa-gradient"></i><i class="fa fa-list-alt fa-stack-1x fa-gradient"></i></span>
+			</div>
+			<div class="back">
+				<!-- back content -->
+				<p class="img-descr highlight">Qualified Level 3 Personal Trainer</p>
+			</div>
+		</div>
+	</div> <!--top image-->
+</div>
+<div class="mainimage-l" data-sr="wait .3s, spin 180deg"> <!--2nd image-->
+	<div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+		<div class="flipper">
+			<div class="front">
+				<!-- front content -->
+				<span class="fa-stack fa-5x"><i class="fa fa-circle-thin fa-stack-2x fa-gradient"></i><i class="fa fa-smile-o fa-stack-1x fa-gradient"></i></span>
+			</div>
+			<div class="back">
+				<!-- back content -->
+				<p class="img-descr highlight">Friendly and </br>accessible</p>
+			</div>
+		</div>
+	</div>
+</div> <!--2nd image-->
+<div class="mainimage-l" data-sr="wait .4s, spin 180deg"> <!--last image-->
+	<div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+		<div class="flipper">
+			<div class="front">
+				<!-- front content -->
+				<span class="fa-stack fa-5x"><i class="fa fa-circle-thin fa-stack-2x fa-gradient"></i><i class="fa fa-trophy fa-stack-1x fa-gradient"></i></span>
+			</div>
+			<div class="back">
+				<!-- back content -->
+				<p class="img-descr highlight">3 years training experience</p>
+			</div>
+		</div>
+	</div>
+</div> <!--last image-->
+</div> <!--1st col-->
+
+<div class="col-xs-12 col-sm-8 col-md-8 col-lg-8" style="text-align:left;">
+<h1 class="lead" style="font-size:32px; text-align:center;">Personal Training</h1>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget hendrerit turpis. Nulla condimentum condimentum lacus in congue. Maecenas porta eros in egestas malesuada. Quisque vehicula dapibus sollicitudin. Praesent ullamcorper elit quis lacus commodo tincidunt. Fusce et velit rutrum, vulputate ligula vitae, accumsan mi. Donec ut sagittis mi. </p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget hendrerit turpis. Nulla condimentum condimentum lacus in congue. Maecenas porta eros in egestas malesuada. Quisque vehicula dapibus sollicitudin. Praesent ullamcorper elit quis lacus commodo tincidunt. Fusce et velit rutrum, vulputate ligula vitae, accumsan mi. Donec ut sagittis mi. </p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget hendrerit turpis. Nulla condimentum condimentum lacus in congue. Maecenas porta eros in egestas malesuada. Quisque vehicula dapibus sollicitudin. Praesent ullamcorper elit quis lacus commodo tincidunt. Fusce et velit rutrum, vulputate ligula vitae, accumsan mi. Donec ut sagittis mi. </p>
+<p style="text-align:center; padding-top:20px;"><a href="./contact.html" style="text-decoration:none;"><span class="butt">Get in touch &raquo;</span></a></p>
+</div> <!--2nd col-->
+
+</div> <!--row-->
+
+</div> <!-- /container -->
+
+</div> <!--main-->
+
+<div id="footer" style="height:160px; border-bottom:solid 1px #d3d3d3 ">
+<div class="row" style="margin:0 auto; width:75vw; height:15vh; text-align:center; padding-top:3vh;">
+<div class="col-md-4" style="height:100%">
+<p class="text-uppercase" style="padding-bottom:10px;"><span style="font-weight:100">CharlotteLansley</span><span style="font-weight:bolder">Fitness</span></p>
+<a href=""><span class="fa-stack fa-2x social" data-sr="wait .3s, enter bottom and move 100px"><i style="color:#bf4883;" class="fa fa-circle fa-stack-2x"></i><i style="color:#fff" class="fa fa-facebook fa-stack-1x" aria-hidden="true"></i></span></a>
+<a href=""><span class="fa-stack fa-2x social" data-sr="wait .3s, enter bottom and move 100px"><i style="color:#bf4883;" class="fa fa-circle fa-stack-2x"></i><i style="color:#fff" class="fa fa-twitter fa-stack-1x" aria-hidden="true"></i></span></a>
+<a href=""><span class="fa-stack fa-2x social" data-sr="wait .3s, enter bottom and move 100px"><i style="color:#bf4883;" class="fa fa-circle fa-stack-2x"></i><i style="color:#fff" class="fa fa-instagram fa-stack-1x" aria-hidden="true"></i></span></a>
+</div>
+<div class="col-md-4" style="height:100%; border-left:solid 1px #d3d3d3; border-right:solid 1px #d3d3d3;">
+<p class="text-uppercase" style="padding-bottom:5px; font-weight:bolder;">Get in touch</p>
+<p><span class="glyphicon glyphicon-earphone" aria-hidden="true" style="color:#bf4883"></span> &nbsp;07856334681</p>
+<p><span class="glyphicon glyphicon-envelope" aria-hidden="true" style="color:#bf4883"></span> &nbsp;info@charlottelansleyfitness.co.uk</p>
+</div>
+<div class="col-md-4" style="height:100%">
+<p class="text-uppercase" style="padding-bottom:5px; font-weight:bolder;">Subscribe</p>
+<p><small>Enter your email to receive periodic updates, tips and tricks and recipes from Charlotte</small></p>
+<input id="subemail" placeholder="Email me at..." type="email">
+<input class="butt" value="Subscribe" type="submit">
+</div>
+</div>
+</div>
+
+<div id="bottombar" style="height:40px; line-height:40px; padding:0 10px;">
+<small>&copy; Charlotte Lansley Fitness 2017</small>
+</div>
+
+</div> <!--container-->
+
+<script> <!--jquery smooth scroll-->
+// Select all links with hashes
+$('a[href*="#"]')
+  // Remove links that don't actually link to anything
+  .not('[href="#"]')
+  .not('[href="#0"]')
+  .click(function(event) {
+    // On-page links
+    if (
+      location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') 
+      && 
+      location.hostname == this.hostname
+    ) {
+      // Figure out element to scroll to
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+      // Does a scroll target exist?
+      if (target.length) {
+        // Only prevent default if animation is actually gonna happen
+        event.preventDefault();
+        $('html, body').animate({
+          scrollTop: target.offset().top
+        }, 1000, function() {
+          // Callback after animation
+          // Must change focus!
+          var $target = $(target);
+          $target.focus();
+          if ($target.is(":focus")) { // Checking if the target was focused
+            return false;
+          } else {
+            $target.attr('tabindex','-1'); // Adding tabindex for elements not focusable
+            $target.focus(); // Set focus again
+          };
+        });
+      }
+    }
+  });
+</script>
+
+<script>       
+(function ($) {
+	window.sr = new scrollReveal({
+		reset: false,
+		delay: 'always',
+		vFactor: 0.00,
+		mobile: true
+	});
+
+})();
+</script>
+
+</body>
+</html>
